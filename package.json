@@ -1,0 +1,32 @@
+{
+  "name": "bootstrap-grid",
+  "version": "1.0.0",
+  "description": "Standalone version of Bootstrap's grid system",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "lessc index.less > grid.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hilzu/bootstrap-grid.git"
+  },
+  "keywords": [
+    "bootstrap",
+    "responsive",
+    "grid",
+    "column",
+    "row"
+  ],
+  "author": "Santeri Hiltunen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hilzu/bootstrap-grid/issues"
+  },
+  "homepage": "https://github.com/Hilzu/bootstrap-grid#readme",
+  "devDependencies": {
+    "less": "^2.5.1"
+  },
+  "dependencies": {
+    "bootstrap": "^3.3.5"
+  }
+}
