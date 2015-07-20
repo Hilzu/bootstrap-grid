@@ -12,9 +12,9 @@ See Bootstrap's [grid system][grid] and [responsive utilities][responsive] docum
 
 ## How do I use this project?
 
-* Download the `grid.css` file and include it in your project.
+* Download the `grid.css` or `grid.min.css` file and include it in your project.
 * Install this package with npm and
-  * include/require `grid.css` in your stylesheets.
+  * include/require `grid.css` or `grid.min.css` in your stylesheets.
   * include `index.less` in your less build. Note that this makes all the variables and mixins from Bootstrap available to your less files. You must build the `index.less` separately if you don't want that.
 * Any other way you can think of really.
 
@@ -41,7 +41,7 @@ Run build
 
     $ npm run build
 
-The file `grid.css` is generated containing the grid system.
+`grid.css` and a minified `grid.min.css` are generated.
 
 [grid]: http://getbootstrap.com/css/#grid
 [responsive]: http://getbootstrap.com/css/#responsive-utilities
