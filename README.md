@@ -4,11 +4,11 @@ Standalone version of Bootstrap 3 grid system.
 ## Why?
 
 Bootstrap 3 contains a best of breed responsive grid system. It's useful without all the rest of Bootstrap. This project
-builds a standalone version of it with just the container, row and columns classes.
+contains a standalone version of it with just the grid and related utility classes.
 
 ## How to use the grid?
 
-See [Bootstrap grid system documentation][grid].
+See Bootstrap's [grid system][grid] and [responsive utilities][responsive] documentation.
 
 ## How do I use this project?
 
@@ -26,7 +26,10 @@ The following classes are included:
 * container
 * container-fluid
 * row
-* All the col classes from col-xs-1 to col-lg-12 including push, pull and offset versions: col-(xs|sm|md|lg)-\[(push|pull|offset)-](1-12)
+* All the col classes from col-xs-1 to col-lg-12 including push, pull and offset versions: `col-(xs-lg)-[(push|pull|offset)-](1-12)`
+* hidden classes for all breakpoints: `hidden-(xs-lg|print)`
+* visible classes for all breakpoints and columns: `visible-(xs-lg|print)-(block|inline|inline-block)`.
+* `visible-(xs-lg|print)` are also included but they are deprecated as of bootstrap v3.2.0 and should not be used.
 
 ## How do I build this?
 
@@ -41,3 +44,4 @@ Run build
 The file `grid.css` is generated containing the grid system.
 
 [grid]: http://getbootstrap.com/css/#grid
+[responsive]: http://getbootstrap.com/css/#responsive-utilities
