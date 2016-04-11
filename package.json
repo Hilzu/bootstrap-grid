@@ -25,10 +25,8 @@
   },
   "homepage": "https://github.com/Hilzu/bootstrap-grid#readme",
   "devDependencies": {
+    "bootstrap": "^3.3.5",
     "clean-css": "^3.3.6",
     "less": "^2.5.1"
-  },
-  "dependencies": {
-    "bootstrap": "^3.3.5"
   }
 }
