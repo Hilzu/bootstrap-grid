@@ -15,7 +15,7 @@ See Bootstrap's [grid system][grid] and [responsive utilities][responsive] docum
 
 You have several choices:
 
-1. Download the `grid.css` or `grid.min.css` file and include it in your project.
+1. Download the `grid.css` or `grid.min.css` file from the `dist` folder and include it in your project.
 2. Install this package with npm and include/require `grid.css` or `grid.min.css` directly from
 `node_modules`.
 3. Any other way you can think of really.

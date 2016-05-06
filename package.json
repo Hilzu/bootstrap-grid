@@ -4,8 +4,8 @@
   "description": "Standalone version of Bootstrap's grid system",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "lessc index.less > grid.css",
-    "postbuild": "cleancss --s1 grid.css > grid.min.css"
+    "build": "lessc index.less > dist/grid.css",
+    "postbuild": "cleancss --s1 dist/grid.css > dist/grid.min.css"
   },
   "repository": {
     "type": "git",
