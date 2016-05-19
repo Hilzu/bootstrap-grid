@@ -1,6 +1,7 @@
 {
   "name": "bootstrap-grid",
   "version": "2.0.0",
+  "main": "dist/grid.min.css",
   "description": "Standalone version of Bootstrap's grid system",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
