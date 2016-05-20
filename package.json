@@ -1,6 +1,6 @@
 {
   "name": "bootstrap-grid",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "main": "dist/grid.min.css",
   "description": "Standalone version of Bootstrap's grid system",
   "scripts": {
