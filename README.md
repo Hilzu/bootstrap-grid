@@ -18,7 +18,8 @@ You have several choices:
 1. Download the `grid.css` or `grid.min.css` file from the `dist` folder and include it in your project.
 2. Install this package with npm and include/require `grid.css` or `grid.min.css` directly from
 `node_modules`.
-3. Any other way you can think of really.
+3. If you are using webpack with `css-loader` you can just `require("bootstrap-grid")`.
+4. Any other way you can think of really.
 
 The Bootstrap grid system expects the columns and containers to have `box-sizing: border-box` set.
 The `grid.css` file doesn't have that rule because it's set in Bootstrap's `scaffolding.less` file that
