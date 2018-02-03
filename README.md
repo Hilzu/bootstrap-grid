@@ -3,6 +3,11 @@
 Standalone version of Bootstrap 3 grid system. See the [test][test.html] file
 for a demo.
 
+If you want to use the grid from Bootstrap 4 you should use Bootstrap directly.
+It includes a [standalone version][bs-4-standalone] of its grid system in its
+downloadable bundle and npm package so go ahead and use that instead of this
+package.
+
 ## Why?
 
 Bootstrap 3 contains a best of breed responsive grid system. It's useful without
